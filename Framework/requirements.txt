@@ -3,13 +3,6 @@ python-nmap==0.7.1
 python-socketio==5.11.2
 whois==0.8
 dnspython==2.6.1
-urllib
 urllib3==1.26.18
 requests==2.31.0
-os
-hashlib
-sys
-re
-rich
-datetime
-time
+rich==13.3.2
