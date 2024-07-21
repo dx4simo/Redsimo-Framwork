@@ -20,8 +20,8 @@ Bruteforcing 'Cracking with more 1 million record' etc....
 Install Redsimo Framework:
 
 ```bash
-  git clone https://github.com/reddx4simo/Redsimo-Framwork.git
-  cd my-project
+  git clone https://github.com/dx4simo/Redsimo-Framwork.git
+  cd Redsimo-Framework
   pip install -r requirements.txt
   python main.py 
 ```
