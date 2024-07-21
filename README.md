@@ -1,5 +1,6 @@
 # This is Redsimo Framework v1.0 #
-#----------------- SETUP ---------------------#
+***SETUP:
+'''bash 
 git clone https://github.com/reddx4simo/Redsimo-Framwork.git
 cd Redsimo-Framwork
 pip install -r requirements.txt
