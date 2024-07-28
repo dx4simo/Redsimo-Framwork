@@ -40,7 +40,7 @@ Install Redsimo Framework:
 
 ## Authors
 
-- [@dx4simo](https://www.github.com/octokatherine)
+- [@dx4simo](https://github.com/dx4simo)
 
 
 ## Contributing
