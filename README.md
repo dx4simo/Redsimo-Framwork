@@ -6,12 +6,6 @@ This project was created to improve my Python skills and understand how simple s
 
 ---
 
-## Note
-
-Some of my older projects were transferred from my previous GitHub account to this new profile because the old account could not be recovered.
-
----
-
 ## Disclaimer
 
 This project is for educational purposes only.
@@ -56,13 +50,15 @@ Through this project, I practiced:
 
 ---
 
-## Installation
+## Installation Redsimo Framework:
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/IslamAbouelregal/redsimo-security-learning-toolkit.git
-cd redsimo-security-learning-toolkit
+git clone https://github.com/reddx4simo/Redsimo-Framwork.git
+cd my-project
+git clone https://github.com/dx4simo/Redsimo-Framwork.git
+cd Redsimo-Framework
 ```
 
 Install the required packages:
