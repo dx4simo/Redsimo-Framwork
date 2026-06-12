@@ -1,29 +1,44 @@
 # Redsimo Security Learning Toolkit
 
-A Python command-line learning project for practicing basic networking and ethical cybersecurity concepts.
+A Python command-line learning project for practicing Linux, networking, and basic ethical cybersecurity concepts in authorized environments.
 
-This project was created to improve my Python skills and understand how simple security-related tools work, such as WHOIS lookup, subdomain discovery and basic port scanning in authorized environments.
+The project was created to strengthen my Python programming skills, improve my experience with Linux command-line tools, and understand how small networking utilities work.
 
 ---
+## Project Overview
 
+Redsimo Security Learning Toolkit is a small modular CLI application that provides basic networking and information-gathering functions.
+
+The project focuses on:
+
+* Python scripting
+* Linux and command-line usage
+* Basic networking concepts
+* Modular project organization
+* Input validation and error handling
+* Ethical and authorized security testing
+
+---
 ## Disclaimer
 
-This project is for educational purposes only.
+This project is intended for educational purposes only.
 
-It must only be used on systems, domains or networks that you own or have explicit permission to test.
-Do not use this project against third-party systems without authorization.
+It must only be used on systems, domains, hosts, or networks that you own or have explicit permission to test.
+
+Unauthorized testing of third-party systems is strictly prohibited.
 
 ---
 
 ## Features
 
 * WHOIS information lookup
-* Basic subdomain discovery
-* Simple port scanning for authorized targets
-* Command-line interface
-* Organized Python scripts
-* Basic error handling
-* Practice with networking-related Python libraries
+* Basic subdomain discovery for authorized domains
+* Simple port availability checks for authorized hosts
+* Interactive command-line menu
+* Modular Python scripts
+* User input handling
+* Basic input validation
+* Error and exception handling
 
 ---
 
@@ -31,22 +46,27 @@ Do not use this project against third-party systems without authorization.
 
 Through this project, I practiced:
 
-* Python scripting
-* Building command-line tools
-* Working with user input
-* Understanding basic networking concepts
-* Handling errors in Python
-* Organizing a small Python project
-* Learning ethical cybersecurity principles
+* Python programming
+* Linux and Unix command-line usage
+* Building command-line applications
+* Socket programming
+* Working with networking-related libraries
+* Processing and validating user input
+* Handling errors and exceptions
+* Organizing Python code into separate modules
+* Using Git and GitHub for version control
+* Understanding responsible and ethical security practices
 
 ---
 
 ## Technologies Used
 
 * Python
-* Socket programming
-* WHOIS lookup libraries
-* Command-line interface tools
+* Linux / Unix
+* Python sockets
+* WHOIS libraries
+* Command-line interfaces
+* Git and GitHub
 
 ---
 
@@ -56,18 +76,43 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/reddx4simo/Redsimo-Framwork.git
-cd my-project
-git clone https://github.com/dx4simo/Redsimo-Framwork.git
 cd Redsimo-Framework
 ```
+## Create and activate a virtual environment:
 
-Install the required packages:
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+### Run the application:
+
+```bash
+python main.py
+```
+
+### Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the application:
 
 ```bash
 python main.py
@@ -77,20 +122,20 @@ python main.py
 
 ## Usage
 
-Run the script and follow the instructions in the terminal:
+Start the application and select one of the available functions from the command-line menu:
 
 ```bash
 python main.py
 ```
 
-Only test domains, hosts or networks that you own or have permission to analyze.
+Only enter domains, hosts, or networks that you own or are explicitly authorized to analyze..
 
 ---
 
 ## Project Structure
 
 ```text
-redsimo-security-learning-toolkit/
+Redsimo-Framwork/
 │
 ├── main.py
 ├── requirements.txt
@@ -116,26 +161,30 @@ Add your screenshots inside the `screenshots` folder and update the path below:
 
 ## What I Learned
 
-This project helped me understand how Python can be used to build small command-line tools related to networking and cybersecurity.
+This project helped me understand how Python can be used to create small command-line tools for networking-related tasks.
 
-I practiced working with external libraries, user input, basic network concepts and project organization.
-It also helped me understand the importance of ethical and authorized use of security-related tools.
+I improved my practical knowledge of Linux, terminal commands, Python scripting, sockets, external libraries, error handling, and modular project organization.
+
+The project also strengthened my understanding of responsible and authorized use of security-related software.
 
 ---
 
 ## Future Improvements
 
-* Improve the command-line menu
-* Add better input validation
-* Improve error messages
-* Split the code into cleaner modules
-* Add more documentation
-* Add simple unit tests
-* Keep the project focused on ethical learning only
-
+* Refactor the project into cleaner modules
+* Improve input validation
+* Add clearer error messages
+* Add command-line arguments
+* Add logging
+* Add unit tests
+* Improve documentation
+* Add a configuration file
+* Improve compatibility across Linux and Windows
+* Keep all functions focused on authorized and ethical learning environments
+  
 ---
 
 ## Author
 
 **Islam Albadawy**
-Aspiring Software Developer 
+Aspiring Software Developer with practical experience in Python, Linux, web development, and networking. 
